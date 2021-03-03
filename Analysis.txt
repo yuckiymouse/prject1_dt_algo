@@ -1,0 +1,30 @@
+# Task0.py
+- Calculate Big O : O(1)
+- The time-complexity for this program is O(1) because we are accessing the first and last values from the lists (calls and texts) by an index.
+- Time can't be changed by the amount of data which means we can't reduce the time for proceeding.
+
+# Task1.py
+- Calculate Big O : O(n)
+- n signifies the number of data. (ex. the rows of calls.csv)
+- We use loop (O(n)) twice and the calculation of union is O(len(texts) + len(calls)): O(n).
+- O(n) is the worst.
+
+
+# Task2.py
+- Calculate Big O : O(n)
+- Big O for the first loop is O(len(calls)) and the loop in max is O(len(phone_dict)).
+- O(n) is the worst.
+
+
+# Task3.py
+- Calculate Big O : O(n log n)
+- In part A, Big O for the first loop is O(len(calls)) and the sorted is O(len(receved_num log receved_num)).
+- In part B, Big O for the loop is O(len(calls)).
+- O(n log n) < O(n) so the worst is O(n log n)
+
+# Task4.py
+- Calculate Big O : O(n log n)
+- First loop is O(len(calls))
+- Difference of set is O(len(outgoing) + len(non_tele))
+- Sort of set is O(len(receved_num log receved_num))
+- O(n log n) < O(n) so the worst is O(n log n)
