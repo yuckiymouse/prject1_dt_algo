@@ -1,2 +1,4 @@
-# prject1_dt_algo
-Udacity Nanodegree Data Structures &amp; Algorithms Nanodegree Program
+# Unscramble Computer Science Problems
+Udacity Nanodegree Data Structures &amp; Algorithms Nanodegree Program Project 1
+
+
